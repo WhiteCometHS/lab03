@@ -1,0 +1,103 @@
+#form1 {
+    width: 800px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center; 
+}
+
+#submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+select{
+    margin-right: 20px;
+}
+
+#table1 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+	margin-bottom: 20px;
+	border: 15px solid #F2F8F8;
+	border-top: 5px solid #F2F8F8;
+	border-collapse: collapse; 
+}
+#table1 th {
+	font-weight: bold;
+	padding: 5px;
+	background: #F2F8F8;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+#table1 td {
+	padding: 5px;
+	border: none;
+	border-bottom: 5px solid #F2F8F8;
+}
+
+.input-group {
+    color: #333;
+    float: left;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0 20px 10px;
+    width: 60px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 2px;
+  }
+  
+  input {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 13px;
+    height: 33px;
+    margin: 0;
+    width: 80px;
+  }
+
+  select {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 13px;
+    height: 37px;
+    margin: 0;
+    width: 80px;
+  }
+  
+  .error-message {
+    color: #cc0033;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 5px 0 0;
+  }
+  
+  /* Error Styling */
+  
+  .error input[type=text] {
+    background-color: #fce4e4;
+    border: 1px solid #cc0033;
+    outline: none;
+  }
+  
+  .error .error-message {
+    display: inline-block;
+  }
+  
+
+
